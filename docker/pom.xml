@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>docker</artifactId>
+  <name>Dockers package</name>
+  <packaging>pom</packaging>
+  <parent>
+    <groupId>fr.atos.modules.test</groupId>
+    <artifactId>ged-parent</artifactId>
+    <version>1.0.0.1-SNAPSHOT</version>
+  </parent>
+  <properties>
+    <sonar.skip>true</sonar.skip>
+  </properties>
+  <modules>
+    <module>platform</module>
+    <module>share</module>
+  </modules>
+</project>
